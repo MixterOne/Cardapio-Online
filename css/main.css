@@ -479,7 +479,7 @@ footer{
     overflow-x: hidden;
 }
 
-.m-body::-webkiL-scrollbar{
+.m-body::-webkit-scrollbar{
     width: 6px;
     background: transparent;
 }
@@ -591,7 +591,7 @@ footer{
 }
 
 .container-total{
-    padding-top: 20px;
+    padding-top:20px;
     border-top: 1px solid var(--color-separate);
 }
 
@@ -610,10 +610,81 @@ footer{
     font-size: 24px;
 }
 
+.form-control{
+    background-color: var(--color-white);
+    color: var(--color-black)!important;
+    border-radius: 20px;
+    padding: 15px 20px;
+    font-size: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1)!important;
+    border: none !important;
+}
 
+.form-group select {
+    height: 60px!important;
+}
 
+.container-cep .form-control{
+    padding-right: 75px;
+}
 
+.container-cep .btn{
+    position: absolute;
+    right: 25px;
+    top: 38px;
+}
 
+.img-produto-resumo img{
+    width: 50px;
+    border-radius: 11px;
+}
+
+.item-carrinho.resumo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title-produto-resumo{
+    color: var(--color-black);
+    font-size: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.price-produto-resumo{
+    color: var(--color-primary);
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.quantidade-produto-resumo{
+    color: var(--color-black);
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.img-map{
+    width: 50px;
+    height: 50px;
+    background-color: var(--color-secondary);
+    color: var(--color-black);
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+}
+
+.text-endereco{
+    margin-bottom: 0px;
+    color: var(--color-black);
+}
+
+.cidade-endereco{
+    margin-bottom: 0;
+}
 
 
 
