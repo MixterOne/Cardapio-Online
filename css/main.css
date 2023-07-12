@@ -467,6 +467,7 @@ footer{
     overflow-y: auto;
     display: flex;
     flex-direction: column;
+    display: none;
 }
 
 .m-header{
